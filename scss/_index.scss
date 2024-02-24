@@ -1,0 +1,49 @@
+.main-cursos{
+    padding: 20px;
+    section {
+        background-color: #3a3a3a; /* Un tono ligeramente más claro que el fondo */
+        border-radius: 5px;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    .navegable {
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            li {
+                display: inline;
+                margin-right: 20px;
+                a {
+                    color: violet;
+                    text-decoration: none;
+                }
+            }
+            }
+        }
+    .lecciones{
+        ul{
+            li{
+                a {
+                    color: violet;
+                }
+            }
+        }
+        
+        }
+    .descargable{
+        ul{
+            li{
+                a {
+                    color: violet;
+                }
+            }
+        }
+        }
+    .icono{
+            height: 20px;
+            width: 20px;
+        }
+    
+}

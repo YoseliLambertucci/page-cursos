@@ -1,0 +1,68 @@
+@charset "UTF-8";
+:root {
+  --color-fondo: #333; /* Color de fondo oscuro */
+  --color-letras: #fff; /* Color de letras blanco */
+}
+
+body {
+  background-color: var(--color-fondo);
+  color: var(--color-letras);
+  font-family: Arial, sans-serif; /* Cambia la fuente según tus preferencias */
+}
+
+header {
+  background-color: #2a2a2a; /* Un tono ligeramente más claro que el fondo */
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  gap: 15%;
+  flex-wrap: wrap;
+}
+header .logo {
+  width: 20%;
+  height: 20%;
+  border-radius: 50%;
+}
+
+.main-cursos {
+  padding: 20px;
+}
+.main-cursos section {
+  background-color: #3a3a3a; /* Un tono ligeramente más claro que el fondo */
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.main-cursos .navegable nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.main-cursos .navegable nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+.main-cursos .navegable nav ul li a {
+  color: violet;
+  text-decoration: none;
+}
+.main-cursos .lecciones ul li a {
+  color: violet;
+}
+.main-cursos .descargable ul li a {
+  color: violet;
+}
+.main-cursos .icono {
+  height: 20px;
+  width: 20px;
+}
+
+footer {
+  background-color: #2a2a2a; /* Un tono ligeramente más claro que el fondo */
+  padding: 20px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=main.css.map */

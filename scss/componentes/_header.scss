@@ -1,0 +1,14 @@
+header {
+    background-color: #2a2a2a; /* Un tono ligeramente más claro que el fondo */
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 15%;
+    flex-wrap: wrap;
+    .logo{
+        width: 20%;
+        height: 20%;
+        border-radius: 50%;
+    }
+}
